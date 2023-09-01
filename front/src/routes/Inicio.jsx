@@ -1,7 +1,11 @@
 import React from "react";
 
 const Inicio = () => {
-  return <div>Inicio</div>;
+  return (
+    <>
+      <h1 className="text-5xl font-extrabold">Inicio</h1>
+    </>
+  );
 };
 
 export default Inicio;
